@@ -1,0 +1,83 @@
+/* -------------------------------------------------- */
+/* OSNOVNA PODESAVANJA */
+/* -------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+content: '.';
+clear: both;
+display: block;
+height: 0;
+visibility: hidden;
+}
+
+/* -------------------------------------------------- */
+/* KOMPONENTE KOJE SE KORISTE NA CIJELOM SAJTU */
+/* -------------------------------------------------- */
+
+section {
+    padding: 80px 0px;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* HEDINZI */
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+/* LINKOVI */
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
